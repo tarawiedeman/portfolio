@@ -1,0 +1,38 @@
+
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+
+.header{
+    background-color:#F8F2E6;
+    display:flex;
+    flex-direction:row;
+
+
+    &__logo{
+        width:350px;
+       
+    }
+
+    &__list{
+        list-style:none;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+
+        @include desktop{
+        padding:4rem;
+        gap:10rem;
+        margin-left:20rem;
+
+        }
+    }
+    
+        &__text{
+            
+            border-bottom:2px black solid;
+        }
+
+    
+}
