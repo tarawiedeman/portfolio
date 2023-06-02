@@ -13,7 +13,7 @@ function Header() {
         <Link to="/">
           <li className="header__text">About</li>
         </Link>
-        <Link to="/">
+        <Link to="projects">
           <li className="header__text">Projects</li>
         </Link>
         <Link to="/">
