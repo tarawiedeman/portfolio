@@ -1,12 +1,25 @@
 import "./Projects.scss";
-import react from "../../assets/react.png";
-import javascript from "../../assets/js.png";
+import CapstoneSkills from "../../assets/CapstoneSkills.jpg";
+import BrainflixSkills from "../../assets/BrainflixSkills.jpg";
+import PokedexSkills from "../../assets/PokedexSkills.jpg";
+import Brainflix1 from "../../assets/brainflix1.jpg";
+import Brainflix2 from "../../assets/brainflix2.jpg";
+import Brainflix3 from "../../assets/brainflix3.jpg";
+import Brainflix4 from "../../assets/brainflix4.jpg";
+import PMRhome from "../../assets/PMRhome.jpg";
+import PMRlogin from "../../assets/PMRlogin.jpg";
+import PMRlogout from "../../assets/PMRlogout.jpg";
+import PMRdashboard from "../../assets/PMRdashboard.jpg";
+import PMRpayment from "../../assets/PMRpayment.jpg";
+import Pokedex1 from "../../assets/Pokedex1.jpg";
+import Pokedex2 from "../../assets/Pokedex2.jpg";
+import Pokedex3 from "../../assets/Pokedex3.jpg";
 
 
 function Projects() {
   return (
 <section className="projects">
-<h1 className="projects__heading">Projects</h1>
+<h1 className="projects__heading">PROJECTS</h1>
 <h2 className="projects__heading--project">PayMyRent</h2>
 <div className="projects__description">
 <p>PayMyRent is a fully-responsive software application that is helping renters pay their individual portion of rent and utilities by credit card. This prevents renters that share accomodation from having to aggregate rent amongst a group; it also eliminates the need to use outdated payment methods like bank drafts, cheques or even e-transfers.</p>
@@ -17,17 +30,26 @@ function Projects() {
 <br></br><p>Creating this project was alot of fun, check it out!</p>
 
 <div className="projects__links">
-<a href="https://github.com/tarawiedeman/paymyrent" target="blank"><h3>Front-end Code</h3></a>
-<a href="https://github.com/tarawiedeman/paymyrent_api" target="blank"><h3>Back-end Code</h3></a>
+<a href="https://github.com/tarawiedeman/paymyrent" target="blank"><p>Front-end Code</p></a>
+<a href="https://github.com/tarawiedeman/paymyrent_api" target="blank"><p>Back-end Code</p></a>
 </div>
 </div>
 
-<h2 className="projects__skills">Skills</h2>
+
 <div className="projects__languages">
-  <img src={react} className="projects__icon--languages" alt="react"></img>
-  <img src={javascript} className="projects__icon--languages" alt="react"></img>
-
+  <img className="projects__image" alt="skills" src={CapstoneSkills}></img>
 </div>
+
+
+<div className="capstone__preview">
+  <img src={PMRhome} alt="homescreen" className="capstone__preview--home"></img>
+  <img src={PMRlogin} alt="login" className="capstone__preview--mobile"></img>
+  <img src={PMRlogout} alt="logout" className="capstone__preview--mobile"></img>
+  <img src={PMRdashboard} alt="dashboard" className="capstone__preview--dashboard"></img>
+  <img src={PMRpayment} alt="payment" className="capstone__preview--payment" ></img>
+  </div>
+  
+
 
 <h2 className="projects__heading--project">BrainFlix</h2>
 <div className="projects__description">
@@ -35,18 +57,42 @@ function Projects() {
 I utilized the React framework, libraries such as React Router and Axios, and a design styleguide to develop the site’s front-end, as well as Express to create a back-end API. API endpoints include one that retrieves general high-level information for all videos, one that retrieves more detailed information for the specific video being displayed on the home page, and one that posts a new video (through the upload page) and subsequently displays that video in the list of available videos on the home page.</p>
 </div>
 <div className="projects__links">
-<a href="https://github.com/tarawiedeman/tara-wiedeman-brainflix" target="blank"><h3>Front-end Code</h3></a>
-<a href="https://github.com/tarawiedeman/brainflix-api" target="blank"><h3>Back-end Code</h3></a>
+<a href="https://github.com/tarawiedeman/tara-wiedeman-brainflix" target="blank"><p>Front-end Code</p></a>
+<a href="https://github.com/tarawiedeman/brainflix-api" target="blank"><p>Back-end Code</p></a>
 </div>
+<div className="projects__languages">
+  <img className="projects__image" alt="skills" src={BrainflixSkills}></img>
+</div>
+
+<div className="brainflix__preview">
+  <img src={Brainflix1} alt="webpage" className="brainflix__preview--1"></img>
+  <img src={Brainflix2} alt="webpage" className="brainflix__preview--2"></img>
+</div>
+
+<div className="brainflix__preview">
+  <img src={Brainflix3} alt="webpage" className="brainflix__preview--3"></img>
+  <img src={Brainflix4} alt="webpage" className="brainflix__preview--4" ></img>
+</div>
+
 
 <h2 className="projects__heading--project">Pokedex</h2>
 <div className="projects__description">
-<p>Pokedex is an application allowing you to see the special powers of various pokemon as they're clicked. This application leverages an external API to capture information about each Pokemon</p>
+<p>Pokedex is an application allowing you to see the special powers of various pokemon as they're clicked. This application leverages an external API to capture information about each Pokemon. This project was built in 5 hours with two other individuals as part of the BrainStation hackathon. </p>
 </div>
 <div className="projects__links">
-<a href="https://github.com/tarawiedeman/brainstationhackathon23" target="blank"><h3>Front-end Code</h3></a>
-
+<a href="https://github.com/tarawiedeman/brainstationhackathon23" target="blank"><p>Front-end Code</p></a>
 </div>
+
+<div className="projects__languages">
+  <img className="projects__image" alt="skills" src={PokedexSkills}></img>
+</div>
+
+<div className="pokedex__preview">
+  <img src={Pokedex1} alt="pokemonwebpage" className="pokedex__preview--image"></img>
+  <img src={Pokedex2} alt="pokemonwebpage" className="pokedex__preview--image"></img>
+  <img src={Pokedex3} alt="pokemonwebpage" className="pokedex__preview--image"></img>
+  </div>
+
 </section>
   );
 }
