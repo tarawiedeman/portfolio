@@ -1,6 +1,6 @@
 import "./Header.scss";
 import {Link} from "react-router-dom";
-import logo from "../../assets/logo.gif";
+import logo from "../../assets/images/logo.gif";
 
 function Header() {
 
@@ -16,10 +16,10 @@ function Header() {
         <Link to="projects">
           <li className="header__text">Projects</li>
         </Link>
-        <Link to="/">
+        <Link to="skills">
           <li className="header__text">Skills</li>
         </Link>
-        <Link to="/">
+        <Link to="contact">
           <li className="header__text">Contact</li>
         </Link>
       </ul>

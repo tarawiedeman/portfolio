@@ -1,7 +1,7 @@
 import "./Home.scss";
-import postcard from "../../assets/Postcard.jpg";
-import linkedin from "../../assets/linkedin.svg";
-import github from "../../assets/github.svg";
+import postcard from "../../assets/images/Postcard.jpg";
+import linkedin from "../../assets/images/linkedin.svg";
+import github from "../../assets/images/github.svg";
 
 function Home() {
   return (

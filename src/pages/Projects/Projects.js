@@ -1,19 +1,19 @@
 import "./Projects.scss";
-import CapstoneSkills from "../../assets/CapstoneSkills.jpg";
-import BrainflixSkills from "../../assets/BrainflixSkills.jpg";
-import PokedexSkills from "../../assets/PokedexSkills.jpg";
-import Brainflix1 from "../../assets/brainflix1.jpg";
-import Brainflix2 from "../../assets/brainflix2.jpg";
-import Brainflix3 from "../../assets/brainflix3.jpg";
-import Brainflix4 from "../../assets/brainflix4.jpg";
-import PMRhome from "../../assets/PMRhome.jpg";
-import PMRlogin from "../../assets/PMRlogin.jpg";
-import PMRlogout from "../../assets/PMRlogout.jpg";
-import PMRdashboard from "../../assets/PMRdashboard.jpg";
-import PMRpayment from "../../assets/PMRpayment.jpg";
-import Pokedex1 from "../../assets/Pokedex1.jpg";
-import Pokedex2 from "../../assets/Pokedex2.jpg";
-import Pokedex3 from "../../assets/Pokedex3.jpg";
+import CapstoneSkills from "../../assets/images/CapstoneSkills.jpg";
+import BrainflixSkills from "../../assets/images/BrainflixSkills.jpg";
+import PokedexSkills from "../../assets/images/PokedexSkills.jpg";
+import Brainflix1 from "../../assets/images/brainflix1.jpg";
+import Brainflix2 from "../../assets/images/brainflix2.jpg";
+import Brainflix3 from "../../assets/images/brainflix3.jpg";
+import Brainflix4 from "../../assets/images/brainflix4.jpg";
+import PMRhome from "../../assets/images/PMRhome.jpg";
+import PMRlogin from "../../assets/images/PMRlogin.jpg";
+import PMRlogout from "../../assets/images/PMRlogout.jpg";
+import PMRdashboard from "../../assets/images/PMRdashboard.jpg";
+import PMRpayment from "../../assets/images/PMRpayment.jpg";
+import Pokedex1 from "../../assets/images/Pokedex1.jpg";
+import Pokedex2 from "../../assets/images/Pokedex2.jpg";
+import Pokedex3 from "../../assets/images/Pokedex3.jpg";
 
 
 function Projects() {

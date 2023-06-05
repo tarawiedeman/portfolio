@@ -1,0 +1,16 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+
+.footer{
+    background-color:#FAE5B9;
+    height:30px;
+    width:100vw;
+    position:fixed;
+    bottom:0rem;
+    font-family:'Glacial Indifference';
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
