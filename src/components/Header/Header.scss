@@ -21,7 +21,7 @@
         flex-direction:row;
         align-items:center;
 
-        @include desktop{
+        @include tablet{
         padding:4rem;
         gap:5rem;
         margin-left:20rem;
