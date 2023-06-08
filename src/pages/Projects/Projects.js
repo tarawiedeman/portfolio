@@ -90,7 +90,7 @@ I utilized the React framework, libraries such as React Router and Axios, and a 
 <div className="pokedex__preview">
   <img src={Pokedex1} alt="pokemonwebpage" className="pokedex__preview--image"></img>
   <img src={Pokedex2} alt="pokemonwebpage" className="pokedex__preview--image"></img>
-  <img src={Pokedex3} alt="pokemonwebpage" className="pokedex__preview--image"></img>
+  <img src={Pokedex3} alt="pokemonwebpage" className="pokedex__preview--lastimage"></img>
   </div>
 
 </section>

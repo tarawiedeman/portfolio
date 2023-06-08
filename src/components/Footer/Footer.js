@@ -1,4 +1,5 @@
 import "./Footer.scss";
+import signature from "../../assets/images/signature.png";
 
 
 
@@ -8,7 +9,7 @@ function Footer() {
     return (
     <section>
     <div className="footer">
-        <p>Tara Wiedeman - 2023</p>
+        <img src={signature} alt="signature" className="footer__image"/>
     </div>
 
 

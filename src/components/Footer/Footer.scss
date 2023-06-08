@@ -5,12 +5,29 @@
 
 .footer{
     background-color:#FAE5B9;
-    height:30px;
     width:100vw;
     position:fixed;
     bottom:0rem;
-    font-family:'Glacial Indifference';
+    font-weight:400;
+    font-style:italic;
     display:flex;
     align-items:center;
-    justify-content: center;
+    justify-content: right;
+    height:20px; 
+
+    @include tablet{
+        height:50px;
+    }
+
+    &__image{
+        height:20px;
+        width:100px;
+        margin-right:2rem;
+
+        @include tablet{
+        height:50px;
+        width:150px;  
+        margin-right:0rem;
+        }
+    }
 }

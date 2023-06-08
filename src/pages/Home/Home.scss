@@ -6,47 +6,84 @@
 .home{
     background-color:#F8F2E6;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     align-items:center;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-bottom:1rem;
    
     
+    @include tablet{
+        flex-direction:row;
+        gap:3rem;
+        padding-left:2rem;
+        padding-right:2rem;
+        padding-bottom:2rem;
+        
+    }
+
     @include desktop{
         gap:8rem;
         padding-left:4rem;
         padding-right:4rem;
         padding-bottom:2rem;
-        
     }
 
+   
+    
+    &__columncontainer{
+        display:flex;
+        flex-direction:column;
+    }
 
     &__name{
-        font-size:1rem;
+        font-size:0.6rem;
         font-family:'DM Sans';
         font-style:italic;
         font-weight:400;
         margin:auto;
-        margin-top:4rem;
-        margin-bottom:4rem;
         flex-wrap:wrap;
         
+        @include tablet{
+            font-size:0.75rem;
+        }
+
+        @include desktop{
+            font-size:0.9rem;
+        }
     }
 
     &__image{
+        width:200px;
+        margin-bottom:2rem;
+
+        @include tablet{
+            width:350px;
+            margin-bottom:2rem;
+        }
+
+        @include desktop{
         width:500px;
-       
+        margin-bottom:3rem;
+        }
     }
 
     &__icon{
+        width:15px;
+
+        @include tablet{
         width:30px;
-        background-color:#F8F2E6;
+        
+        }
     }
 
     &__social{
         display:flex;
-        justify-content: center;
+        justify-content: start;
+        align-items:center;
         background-color:#F8F2E6;
-        padding-left:10rem;
         gap:1rem;
-        padding-bottom:5rem;
+        padding-top:1rem;
+        margin-bottom:3rem;
     }
 }

@@ -10,12 +10,20 @@
         align-items:center;
         justify-content: center;
         background-color:#F8F2E5;
-        padding-bottom:2rem;
+        padding-bottom:4rem;
     }
 
     &__image{
         margin:auto;
+        width:250px;
+
+        @include tablet{
+            width:400px;
+        }
+
+        @include desktop{
         width:600px;
+        }
     }
    
 }
