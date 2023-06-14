@@ -1,27 +1,27 @@
 import "./Header.scss";
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import logo from "../../assets/images/logo.jpg";
 
 function Header() {
 
     return (
     <header className="header">
-      <Link to="/">
+      <NavLink to="/">
         <img src={logo} alt="logo" className="header__logo" />
-      </Link>
+      </NavLink>
       <ul className="header__list">
-        <Link to="/">
-          <li className="header__text">About</li>
-        </Link>
-        <Link to="projects">
+        <NavLink to="/" >
+          <li className="header__text" >About</li>
+        </NavLink>
+        <NavLink to="projects">
           <li className="header__text">Projects</li>
-        </Link>
-        <Link to="skills">
+        </NavLink>
+        <NavLink to="skills">
           <li className="header__text">Skills</li>
-        </Link>
-        <Link to="contact">
+        </NavLink>
+        <NavLink to="contact">
           <li className="header__text">Contact</li>
-        </Link>
+        </NavLink>
       </ul>
     </header>
 

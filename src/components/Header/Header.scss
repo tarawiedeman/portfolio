@@ -16,6 +16,7 @@
 
     &__logo{
         width:300px;
+        ;
        
     }
 
@@ -41,10 +42,22 @@
         }
     }
     
-        &__text{
-            
-            // border-bottom: 2px #F7CEB3 solid;
-        }
+      
 
     
 }
+
+
+
+a:hover{
+    color:#5C2C0A;
+}
+
+a.active{
+    color: #5C2C0A;
+    font-weight:600;
+    
+}
+
+
+
