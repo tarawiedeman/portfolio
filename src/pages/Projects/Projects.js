@@ -19,7 +19,7 @@ import Pokedex3 from "../../assets/images/Pokedex3.jpg";
 function Projects() {
   return (
 <section className="projects">
-<h1 className="projects__heading">PROJECTS</h1>
+
 <h2 className="projects__heading--project">PayMyRent</h2>
 <div className="projects__description">
 <p>PayMyRent is a fully-responsive software application that is helping renters pay their individual portion of rent and utilities by credit card. This prevents renters that share accomodation from having to aggregate rent amongst a group; it also eliminates the need to use outdated payment methods like bank drafts, cheques or even e-transfers.</p>

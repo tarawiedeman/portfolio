@@ -12,13 +12,15 @@
     padding-right:2rem;
     padding-bottom:1rem;
    
+   
     
     @include tablet{
         flex-direction:row;
         gap:3rem;
         padding-left:2rem;
         padding-right:2rem;
-        padding-bottom:4rem;
+        padding-bottom:2rem;
+        
         
     }
 
@@ -26,7 +28,8 @@
         gap:8rem;
         padding-left:4rem;
         padding-right:4rem;
-        padding-bottom:5rem;
+        padding-bottom:2rem;
+        
        
     }
 
@@ -85,6 +88,34 @@
         background-color:#F8F2E6;
         gap:1rem;
         padding-top:1rem;
-        margin-bottom:3rem;
+        
+    }
+}
+
+.journey {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    background-color: #F8F2E6;
+    padding-top:5rem;
+
+    &__header{
+        font-family:'DM Sans';
+
+    }
+    &__image{
+        width:250px;
+        height:500px;
+        padding:1rem;
+        padding-top:0rem;
+
+        @include tablet{
+            width:500px;
+            height:1000px;
+            padding:2rem;
+            padding-top:0rem;
+            
+        }
     }
 }
