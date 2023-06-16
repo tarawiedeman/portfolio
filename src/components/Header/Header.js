@@ -1,17 +1,16 @@
 import "./Header.scss";
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo.jpg";
 
 function Header() {
-
-    return (
+  return (
     <header className="header">
       <NavLink to="/">
         <img src={logo} alt="logo" className="header__logo" />
       </NavLink>
       <ul className="header__list">
-        <NavLink to="/" >
-          <li className="header__text" >About</li>
+        <NavLink to="/">
+          <li className="header__text">About</li>
         </NavLink>
         <NavLink to="projects">
           <li className="header__text">Projects</li>
@@ -24,10 +23,7 @@ function Header() {
         </NavLink>
       </ul>
     </header>
-
-
-    );
-
+  );
 }
 
 export default Header;

@@ -2,120 +2,107 @@
 @use "../../styles/partials/typography" as *;
 @use "../../styles/partials/variables" as *;
 
+.home {
+  background-color: #f8f2e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
 
-.home{
-    background-color:#F8F2E6;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    padding-left:2rem;
-    padding-right:2rem;
-    padding-bottom:1rem;
-   
-   
-    
-    @include tablet{
-        flex-direction:row;
-        gap:3rem;
-        padding-left:2rem;
-        padding-right:2rem;
-        padding-bottom:2rem;
-        
-        
+  @include tablet {
+    flex-direction: row;
+    gap: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  @include desktop {
+    gap: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  &__columncontainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__name {
+    font-size: 0.6rem;
+    font-family: "DM Sans";
+    font-style: italic;
+    font-weight: 400;
+    margin: auto;
+    flex-wrap: wrap;
+
+    @include tablet {
+      font-size: 0.75rem;
     }
 
-    @include desktop{
-        gap:8rem;
-        padding-left:4rem;
-        padding-right:4rem;
-        padding-bottom:2rem;
-        
-       
+    @include desktop {
+      font-size: 0.9rem;
+    }
+  }
+
+  &__image {
+    width: 200px;
+    margin-bottom: 2rem;
+
+    @include tablet {
+      width: 350px;
+      margin-bottom: 2rem;
     }
 
-   
-    
-    &__columncontainer{
-        display:flex;
-        flex-direction:column;
+    @include desktop {
+      width: 500px;
+      margin-bottom: 3rem;
     }
+  }
 
-    &__name{
-        font-size:0.6rem;
-        font-family:'DM Sans';
-        font-style:italic;
-        font-weight:400;
-        margin:auto;
-        flex-wrap:wrap;
-        
-        @include tablet{
-            font-size:0.75rem;
-        }
+  &__icon {
+    width: 15px;
 
-        @include desktop{
-            font-size:0.9rem;
-        }
+    @include tablet {
+      width: 30px;
     }
+  }
 
-    &__image{
-        width:200px;
-        margin-bottom:2rem;
-
-        @include tablet{
-            width:350px;
-            margin-bottom:2rem;
-        }
-
-        @include desktop{
-        width:500px;
-        margin-bottom:3rem;
-        }
-    }
-
-    &__icon{
-        width:15px;
-
-        @include tablet{
-        width:30px;
-        
-        }
-    }
-
-    &__social{
-        display:flex;
-        justify-content: flex-start;
-        align-items:center;
-        background-color:#F8F2E6;
-        gap:1rem;
-        padding-top:1rem;
-        
-    }
+  &__social {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f8f2e6;
+    gap: 1rem;
+    padding-top: 1rem;
+  }
 }
 
 .journey {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content: center;
-    background-color: #F8F2E6;
-    padding-top:5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f2e6;
+  padding-top: 5rem;
 
-    &__header{
-        font-family:'DM Sans';
+  &__header {
+    font-family: "DM Sans";
+  }
+  &__image {
+    width: 250px;
+    height: 500px;
+    padding: 1rem;
+    padding-top: 0rem;
 
+    @include tablet {
+      width: 600px;
+      height: 1000px;
+      padding: 2rem;
+      padding-top: 0rem;
     }
-    &__image{
-        width:250px;
-        height:500px;
-        padding:1rem;
-        padding-top:0rem;
-
-        @include tablet{
-            width:600px;
-            height:1000px;
-            padding:2rem;
-            padding-top:0rem;
-            
-        }
-    }
+  }
 }

@@ -2,49 +2,46 @@
 @use "../../styles/partials/typography" as *;
 @use "../../styles/partials/variables" as *;
 
+.contact {
+  background-color: #f8f2e5;
+  font-family: "Glacial Indifference";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  gap: 1rem;
+  font-size: 0.7rem;
 
-.contact{
-    background-color:#F8F2E5;
-    font-family:'Glacial Indifference';
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:top;
-    gap:1rem;
-    font-size:0.7rem;
+  @include tablet {
+    font-size: 0.8rem;
+    gap: 2rem;
+  }
 
-    @include tablet{
-        font-size:0.8rem;
-        gap:2rem;
+  @include desktop {
+    font-size: 1rem;
+    gap: 2rem;
+  }
+
+  &__bold {
+    font-weight: 600;
+  }
+
+  &__social {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #f8f2e5;
+    gap: 1rem;
+    align-items: top;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+
+  &__icon {
+    width: 15px;
+
+    @include tablet {
+      width: 30px;
     }
-
-    @include desktop{
-        font-size:1rem;
-        gap:2rem;
-    }
-    
-
-    &__bold{
-        font-weight:600;
-    }
-
-    &__social{
-        display:flex;
-        flex-direction:row;
-        height:100vh;
-        background-color:#F8F2E5;
-        gap:1rem;
-        align-items: top;
-        justify-content: center;
-        padding-top:2rem;
-    }
-
-    &__icon{
-    width:15px;
-
-    @include tablet{
-    width:30px;
-    
-    }
-}
+  }
 }
