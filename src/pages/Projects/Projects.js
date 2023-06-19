@@ -147,7 +147,7 @@ function Projects() {
         <img
           src={Brainflix1}
           alt="webpage"
-          className="brainflix__preview--1"
+          className="brainflix__preview--3"
         ></img>
         <img
           src={Brainflix2}
@@ -157,11 +157,6 @@ function Projects() {
       </div>
 
       <div className="brainflix__preview">
-        <img
-          src={Brainflix3}
-          alt="webpage"
-          className="brainflix__preview--3"
-        ></img>
         <img
           src={Brainflix4}
           alt="webpage"
