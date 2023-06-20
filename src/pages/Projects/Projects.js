@@ -2,13 +2,15 @@ import "./Projects.scss";
 import CapstoneSkills from "../../assets/images/CapstoneSkills.jpg";
 import BrainflixSkills from "../../assets/images/BrainflixSkills.jpg";
 import PokedexSkills from "../../assets/images/PokedexSkills.jpg";
+import AmexSkills from "../../assets/images/AMEXskills.jpg";
+import MoodReaderSkills from "../../assets/images/MoodReaderSkills.jpg";
+import Amex1 from "../../assets/images/AMEX1.jpg";
+import Amex2 from "../../assets/images/AMEX2.jpg";
 import Brainflix1 from "../../assets/images/brainflix1.jpg";
 import Brainflix2 from "../../assets/images/brainflix2.jpg";
 import Brainflix3 from "../../assets/images/brainflix3.jpg";
 import Brainflix4 from "../../assets/images/brainflix4.jpg";
 import PMRhome from "../../assets/images/PMRhome.jpg";
-import PMRlogin from "../../assets/images/PMRlogin.jpg";
-import PMRlogout from "../../assets/images/PMRlogout.jpg";
 import PMRdashboard from "../../assets/images/PMRdashboard.jpg";
 import PMRpayment from "../../assets/images/PMRpayment.jpg";
 import Pokedex1 from "../../assets/images/Pokedex1.jpg";
@@ -80,16 +82,7 @@ function Projects() {
           alt="homescreen"
           className="capstone__preview--home"
         ></img>
-        <img
-          src={PMRlogin}
-          alt="login"
-          className="capstone__preview--mobile"
-        ></img>
-        <img
-          src={PMRlogout}
-          alt="logout"
-          className="capstone__preview--mobile"
-        ></img>
+      
         <img
           src={PMRdashboard}
           alt="dashboard"
@@ -99,6 +92,54 @@ function Projects() {
           src={PMRpayment}
           alt="payment"
           className="capstone__preview--payment"
+        ></img>
+      </div>
+
+      <h2 className="projects__heading--project">MoodReader</h2>
+      <div className="projects__description">
+        <p>
+          This project is in progress. MoodReader is an a TypeScript application that makes helpful recommendations to users based on the mood they're in. I built this application collaboratively with a friend as a way to strengthen my skills and knowledge of TypeScript and how it works with React. 
+        </p>
+      </div>
+      <div className="projects__links">
+        <a
+          href="https://github.com/alexzaloga7/moodreader"
+          target="blank"
+        >
+          <p>Front-end Code</p>
+        </a>
+      </div>
+
+      <div className="projects__languages">
+        <img className="moodreader__skills" alt="skills" src={MoodReaderSkills}></img>
+      </div>
+
+      <div className="moodreader__preview">
+      <p>Images coming soon.</p>
+        
+      </div>
+
+      <h2 className="projects__heading--project">American Express Industry Project</h2>
+      <div className="projects__description">
+        <p>
+        As part of a 24hr hackathon our team of UX designers, Data Scientists and Developers collaboratively created a chatbot that leveraged AI and ML to increase the usage of AMEX points amongst customers seeking travel, thereby improving the AMEX customer experience in a prime target market.
+        </p>
+      </div>
+      
+      <div className="projects__languages">
+        <img className="amex__skills" alt="skills" src={AmexSkills}></img>
+      </div>
+
+      <div className="amex__preview">
+        <img
+          src={Amex1}
+          alt="amexwebpage"
+          className="amex__preview--image"
+        ></img>
+        <img
+          src={Amex2}
+          alt="amexwebpage"
+          className="amex__preview--image"
         ></img>
       </div>
 
@@ -167,11 +208,9 @@ function Projects() {
       <h2 className="projects__heading--project">Pokedex</h2>
       <div className="projects__description">
         <p>
-          Pokedex is an application allowing you to see the special powers of
+          Pokedex is an application that was built as part of a 4-hour hackathon; it allows you to see the special powers of
           various pokemon as they're clicked. This application leverages an
-          external API to capture information about each Pokemon. This project
-          was built in 5 hours with two other individuals as part of the
-          BrainStation hackathon.{" "}
+          external API to capture information about each Pokemon.{" "}
         </p>
       </div>
       <div className="projects__links">
@@ -204,6 +243,8 @@ function Projects() {
           className="pokedex__preview--lastimage"
         ></img>
       </div>
+
+      
     </section>
   );
 }
