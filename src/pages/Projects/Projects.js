@@ -82,7 +82,7 @@ function Projects() {
           alt="homescreen"
           className="capstone__preview--home"
         ></img>
-      
+
         <img
           src={PMRdashboard}
           alt="dashboard"
@@ -98,34 +98,44 @@ function Projects() {
       <h2 className="projects__heading--project">MoodReader</h2>
       <div className="projects__description">
         <p>
-          This project is in progress. MoodReader is an a TypeScript application that makes helpful recommendations to users based on the mood they're in. I built this application collaboratively with a friend as a way to strengthen my skills and knowledge of TypeScript and how it works with React. 
+          This project is in progress. MoodReader is an a TypeScript application
+          that makes helpful recommendations to users based on the mood they're
+          in. I built this application collaboratively with a friend as a way to
+          strengthen my skills and knowledge of TypeScript and how it works with
+          React.
         </p>
       </div>
       <div className="projects__links">
-        <a
-          href="https://github.com/alexzaloga7/moodreader"
-          target="blank"
-        >
+        <a href="https://github.com/alexzaloga7/moodreader" target="blank">
           <p>Front-end Code</p>
         </a>
       </div>
 
       <div className="projects__languages">
-        <img className="moodreader__skills" alt="skills" src={MoodReaderSkills}></img>
+        <img
+          className="moodreader__skills"
+          alt="skills"
+          src={MoodReaderSkills}
+        ></img>
       </div>
 
       <div className="moodreader__preview">
-      <p>Images coming soon.</p>
-        
+        <p>Images coming soon.</p>
       </div>
 
-      <h2 className="projects__heading--project">American Express Industry Project</h2>
+      <h2 className="projects__heading--project">
+        American Express Industry Project
+      </h2>
       <div className="projects__description">
         <p>
-        As part of a 24hr hackathon our team of UX designers, Data Scientists and Developers collaboratively created a chatbot that leveraged AI and ML to increase the usage of AMEX points amongst customers seeking travel, thereby improving the AMEX customer experience in a prime target market.
+          As part of a 24hr hackathon our team of UX designers, Data Scientists
+          and Developers collaboratively created a chatbot that leveraged AI and
+          ML to increase the usage of AMEX points amongst customers seeking
+          travel, thereby improving the AMEX customer experience in a prime
+          target market.
         </p>
       </div>
-      
+
       <div className="projects__languages">
         <img className="amex__skills" alt="skills" src={AmexSkills}></img>
       </div>
@@ -208,9 +218,10 @@ function Projects() {
       <h2 className="projects__heading--project">Pokedex</h2>
       <div className="projects__description">
         <p>
-          Pokedex is an application that was built as part of a 4-hour hackathon; it allows you to see the special powers of
-          various pokemon as they're clicked. This application leverages an
-          external API to capture information about each Pokemon.{" "}
+          Pokedex is an application that was built as part of a 4-hour
+          hackathon; it allows you to see the special powers of various pokemon
+          as they're clicked. This application leverages an external API to
+          capture information about each Pokemon.{" "}
         </p>
       </div>
       <div className="projects__links">
@@ -243,8 +254,6 @@ function Projects() {
           className="pokedex__preview--lastimage"
         ></img>
       </div>
-
-      
     </section>
   );
 }
