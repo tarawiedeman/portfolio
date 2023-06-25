@@ -11,7 +11,7 @@ function Home() {
         <img src={postcard} className="home__image" alt="postcard"></img>
         <div className="home__columncontainer">
           <p className="home__name">
-            Hi, Tara here 👋🏽 <br></br> <br></br>I'm a Full Stack Developer,
+            Hi, Tara here 👋🏽 <br></br> <br></br>I'm a Full Stack JavaScript Developer,
             travel-enthusiast, and dog-mom extraordinaire based out of beautiful
             Victoria, BC. <br></br>
             <br></br> I recently graduated from BrainStation's full-stack
@@ -26,7 +26,7 @@ function Home() {
             enjoy the most are problem-solving, building API requests or request
             handling, and troubleshooting complex systems.<br></br>
             <br></br>I'm currently searching for a position as a Software
-            Developer.{" "}
+            Developer or Integration Developer.{" "}
           </p>
           <div className="home__social">
             <a href="https://www.linkedin.com/in/tarawiedeman/" target="blank">
