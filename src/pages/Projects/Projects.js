@@ -98,7 +98,7 @@ function Projects() {
       <h2 className="projects__heading--project">MoodReader</h2>
       <div className="projects__description">
         <p>
-          This project is in progress. MoodReader is an a TypeScript application
+          This project is in progress. MoodReader is a TypeScript application
           that makes helpful recommendations to users based on the mood they're
           in. I built this application collaboratively with a friend as a way to
           strengthen my skills and knowledge of TypeScript and how it works with
