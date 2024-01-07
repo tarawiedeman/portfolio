@@ -16,6 +16,10 @@ import PMRpayment from "../../assets/images/PMRpayment.jpg";
 import Pokedex1 from "../../assets/images/Pokedex1.jpg";
 import Pokedex2 from "../../assets/images/Pokedex2.jpg";
 import Pokedex3 from "../../assets/images/Pokedex3.jpg";
+import MoodHome from "../../assets/images/moodhome.jpg";
+import MoodChoice from "../../assets/images/moodchoice.jpg";
+import MoodRelax from "../../assets/images/moodrelax.jpg";
+import MoodBalance from "../../assets/images/moodbalancepg.jpg";
 
 function Projects() {
   return (
@@ -98,11 +102,10 @@ function Projects() {
       <h2 className="projects__heading--project">MoodReader</h2>
       <div className="projects__description">
         <p>
-          This project is in progress. MoodReader is a TypeScript application
-          that makes helpful recommendations to users based on the mood they're
-          in. I built this application collaboratively with a friend as a way to
-          strengthen my skills and knowledge of TypeScript and how it works with
-          React.
+          MoodReader is a TypeScript application that makes helpful
+          recommendations to users based on their mood. I built this application
+          collaboratively with a friend as a way to strengthen my skills and
+          knowledge of TypeScript and how it works with React.
         </p>
       </div>
       <div className="projects__links">
@@ -120,7 +123,26 @@ function Projects() {
       </div>
 
       <div className="moodreader__preview">
-        <p>Images coming soon.</p>
+        <img
+          src={MoodHome}
+          alt="homescreen"
+          className="moodreader__preview--image"
+        ></img>
+        <img
+          src={MoodChoice}
+          alt="homescreen"
+          className="moodreader__preview--image"
+        ></img>
+        <img
+          src={MoodRelax}
+          alt="homescreen"
+          className="moodreader__preview--image"
+        ></img>
+        <img
+          src={MoodBalance}
+          alt="homescreen"
+          className="moodreader__preview--image"
+        ></img>
       </div>
 
       <h2 className="projects__heading--project">
