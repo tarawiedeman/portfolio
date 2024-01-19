@@ -30,7 +30,8 @@ function Home() {
             BrainStation's Software Engineering Bootcamp as well as Lighthouse
             Labs Front-end Fundamentals course. The tasks I enjoy the most are
             building interactive components in React and TypeScript and sending
-            data from those compoents to a database or external system.<br></br>
+            data from those components to a database or external system.
+            <br></br>
             <br></br>As my current work contract is ending February 2024, I'm
             looking for work as a Software Developer.
           </p>
