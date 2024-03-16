@@ -101,7 +101,8 @@
 .capstone {
   &__preview {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
@@ -207,8 +208,10 @@
 .moodreader {
   &__preview {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
   }
 
   &__preview--image {
