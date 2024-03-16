@@ -32,8 +32,8 @@ function Home() {
             building interactive components in React and TypeScript and sending
             data from those components to a database or external system.
             <br></br>
-            <br></br>As my current work contract is ending February 2024, I'm
-            looking for work as a Software Developer.
+            <br></br>My work contract ended in March 2024 and as a result I'm
+            looking for work as a Software Developer or Technical Consultant.
           </p>
           <div className="home__social">
             <a href="https://www.linkedin.com/in/tarawiedeman/" target="blank">

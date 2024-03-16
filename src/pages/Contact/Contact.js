@@ -7,10 +7,9 @@ function Contact() {
     <section>
       <div className="contact">
         <p>Let's build effective, scalable software solutions together!</p>
-        <p>
-          I am currently looking for a full-time software development role.{" "}
-        </p>
-        <p className="contact__bold">tara.wiedeman@gmail.com</p>
+        <a href="mailto:tara.wiedeman@gmail.com" className="contact__bold">
+          tara.wiedeman@gmail.com
+        </a>
       </div>
 
       <div className="contact__social">
