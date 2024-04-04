@@ -26,17 +26,20 @@
     padding-bottom: 7rem;
   }
 
-  &__columncontainer {
+  &__section--container {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
   }
-
   &__name {
     font-size: 0.6rem;
     font-family: "DM Sans";
     font-style: italic;
     font-weight: 400;
     margin: auto;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     max-width: 80vw;
 

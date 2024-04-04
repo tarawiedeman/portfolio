@@ -5,51 +5,52 @@ import github from "../../assets/images/github.svg";
 
 function Home() {
   return (
-    <section>
+    <>
       <div className="home">
         <img
           src={profilepicture}
           className="home__image"
           alt="profilepicture"
         ></img>
-        <div className="home__columncontainer">
-          <p className="home__name">
-            Hi, Tara here 👋🏽 <br></br> <br></br>I'm a Full Stack Developer,
-            travel-enthusiast, and dog-mom extraordinaire based out of beautiful
-            Victoria, BC. <br></br>
-            <br></br> I’m a positive, driven and detail-oriented professional
-            that has always gravitated toward roles where I got to solve the
-            toughest problems while collaborating with others. I'm equal parts
-            problem solver and relationship builder. Right now I'm in a fun
-            chapter of my career where I'm growing my technical skillset! I have
-            professional experience using React, JavaScript, TypeScript, Ruby on
-            Rails, Node.js, Express, Tailwind and Sass. <br></br>
-            <br></br>I've worked in tech for seven years in Technical Solutions
-            Consulting and have a degree in Business and Science so I'm equal
-            parts logical problem-solver and relationship builder. I completed
-            BrainStation's Software Engineering Bootcamp as well as Lighthouse
-            Labs Front-end Fundamentals course. The tasks I enjoy the most are
-            building interactive components in React and TypeScript and sending
-            data from those components to a database or external system.
-            <br></br>
-            <br></br>My work contract ended in March 2024 and as a result I'm
-            looking for work as a Software Developer or Technical Consultant.
+        <section className="home__name">
+          <p>Hi, Tara here 👋🏽</p>
+          <p>
+            I'm a technical solutions consultant and developer that's passionate
+            about exploring the endless potential of technology in adding
+            *value* to our lives. I'm also a travel enthusiast and dog-mom
+            extraordinaire based out of beautiful Victoria, BC.
           </p>
-          <div className="home__social">
-            <a href="https://www.linkedin.com/in/tarawiedeman/" target="blank">
-              <img
-                src={linkedin}
-                alt="linkedin-icon"
-                className="home__icon"
-              ></img>
-            </a>
-            <a href="https://github.com/tarawiedeman/" target="blank">
-              <img src={github} alt="github-icon" className="home__icon"></img>
-            </a>
-          </div>
-        </div>
+          <p>
+            I’m a positive, driven and detail-oriented professional that has
+            always gravitated toward roles where I got to solve the toughest
+            problems while collaborating with internal stakeholders and
+            customers.
+          </p>
+
+          <p>
+            I've worked in tech for eight years in both Research and Development
+            and Professional Services. I have a degree in Business and Science
+            so I'm equal parts logical problem-solver and relationship builder.
+            Last year I completed my diploma in Software Engineering and the
+            learning only continues!
+          </p>
+
+          <p>
+            My work contract ended in March 2024 and as a result I'm looking for
+            a role where I can combine my communication and critical thinking
+            skills, with my varied technical and programming skills.
+          </p>
+        </section>
       </div>
-    </section>
+      {/* <section className="home__social">
+        <a href="https://www.linkedin.com/in/tarawiedeman/" target="blank">
+          <img src={linkedin} alt="linkedin-icon" className="home__icon"></img>
+        </a>
+        <a href="https://github.com/tarawiedeman/" target="blank">
+          <img src={github} alt="github-icon" className="home__icon"></img>
+        </a>
+      </section> */}
+    </>
   );
 }
 

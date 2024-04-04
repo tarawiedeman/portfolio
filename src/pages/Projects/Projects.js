@@ -6,9 +6,7 @@ import AmexSkills from "../../assets/images/AMEXskills.jpg";
 import MoodReaderSkills from "../../assets/images/MoodReaderSkills.jpg";
 import Amex1 from "../../assets/images/AMEX1.jpg";
 import Amex2 from "../../assets/images/AMEX2.jpg";
-import Brainflix1 from "../../assets/images/brainflix1.jpg";
 import Brainflix2 from "../../assets/images/brainflix2.jpg";
-import Brainflix3 from "../../assets/images/brainflix3.jpg";
 import Brainflix4 from "../../assets/images/brainflix4.jpg";
 import PMRhome from "../../assets/images/PMRhome.jpg";
 import PMRdashboard from "../../assets/images/PMRdashboard.jpg";
@@ -89,12 +87,12 @@ function Projects() {
 
         <img
           src={PMRdashboard}
-          alt="dashboard"
+          alt="dashboardscreen"
           className="capstone__preview--dashboard"
         ></img>
         <img
           src={PMRpayment}
-          alt="payment"
+          alt="paymentscreen"
           className="capstone__preview--payment"
         ></img>
       </div>
@@ -130,17 +128,17 @@ function Projects() {
         ></img>
         <img
           src={MoodChoice}
-          alt="homescreen"
+          alt="moodselectorscreen"
           className="moodreader__preview--image"
         ></img>
         <img
           src={MoodRelax}
-          alt="homescreen"
+          alt="relaxpage"
           className="moodreader__preview--image"
         ></img>
         <img
           src={MoodBalance}
-          alt="homescreen"
+          alt="balancepage"
           className="moodreader__preview--image"
         ></img>
       </div>
@@ -170,7 +168,7 @@ function Projects() {
         ></img>
         <img
           src={Amex2}
-          alt="amexwebpage"
+          alt="presentationslide"
           className="amex__preview--image"
         ></img>
       </div>
@@ -218,13 +216,8 @@ function Projects() {
 
       <div className="brainflix__preview">
         <img
-          src={Brainflix1}
-          alt="webpage"
-          className="brainflix__preview--3"
-        ></img>
-        <img
           src={Brainflix2}
-          alt="webpage"
+          alt="videopreview"
           className="brainflix__preview--2"
         ></img>
       </div>
@@ -232,7 +225,7 @@ function Projects() {
       <div className="brainflix__preview">
         <img
           src={Brainflix4}
-          alt="webpage"
+          alt="upload"
           className="brainflix__preview--4"
         ></img>
       </div>
@@ -262,17 +255,17 @@ function Projects() {
       <div className="pokedex__preview">
         <img
           src={Pokedex1}
-          alt="pokemonwebpage"
+          alt="selectionpage"
           className="pokedex__preview--image"
         ></img>
         <img
           src={Pokedex2}
-          alt="pokemonwebpage"
+          alt="selectedoption"
           className="pokedex__preview--image"
         ></img>
         <img
           src={Pokedex3}
-          alt="pokemonwebpage"
+          alt="selectedoption"
           className="pokedex__preview--lastimage"
         ></img>
       </div>
