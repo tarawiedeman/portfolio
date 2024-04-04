@@ -12,6 +12,9 @@ function Header() {
         <NavLink to="/">
           <li className="header__text">About</li>
         </NavLink>
+        {/* <NavLink to="experience">
+          <li className="header__text">Experience</li>
+        </NavLink> */}
         <NavLink to="projects">
           <li className="header__text">Projects</li>
         </NavLink>
