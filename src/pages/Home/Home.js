@@ -16,8 +16,8 @@ function Home() {
           <p>Hi, Tara here 👋🏽</p>
           <p>
             I'm a technical solutions consultant and developer that's passionate
-            about exploring the endless potential of technology in adding
-            *value* to our lives. I'm also a travel enthusiast and dog-mom
+            about exploring the endless potential of technology in adding value
+            to our lives. I'm also a travel enthusiast and dog-mom
             extraordinaire based out of beautiful Victoria, BC.
           </p>
           <p>

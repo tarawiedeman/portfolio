@@ -6,9 +6,8 @@ import AmexSkills from "../../assets/images/AMEXskills.jpg";
 import MoodReaderSkills from "../../assets/images/MoodReaderSkills.jpg";
 import Amex1 from "../../assets/images/AMEX1.jpg";
 import Amex2 from "../../assets/images/AMEX2.jpg";
-import Brainflix2 from "../../assets/images/brainflix2.jpg";
-import Brainflix4 from "../../assets/images/brainflix4.jpg";
-import PMRhome from "../../assets/images/PMRhome.jpg";
+import Brainflix1 from "../../assets/images/brainflix1.jpg";
+import Brainflix3 from "../../assets/images/brainflix3.jpg";
 import PMRdashboard from "../../assets/images/PMRdashboard.jpg";
 import PMRpayment from "../../assets/images/PMRpayment.jpg";
 import Pokedex1 from "../../assets/images/Pokedex1.jpg";
@@ -80,12 +79,6 @@ function Projects() {
 
       <div className="capstone__preview">
         <img
-          src={PMRhome}
-          alt="homescreen"
-          className="capstone__preview--home"
-        ></img>
-
-        <img
           src={PMRdashboard}
           alt="dashboardscreen"
           className="capstone__preview--dashboard"
@@ -131,11 +124,7 @@ function Projects() {
           alt="moodselectorscreen"
           className="moodreader__preview--image"
         ></img>
-        <img
-          src={MoodRelax}
-          alt="relaxpage"
-          className="moodreader__preview--image"
-        ></img>
+
         <img
           src={MoodBalance}
           alt="balancepage"
@@ -216,17 +205,17 @@ function Projects() {
 
       <div className="brainflix__preview">
         <img
-          src={Brainflix2}
-          alt="videopreview"
-          className="brainflix__preview--2"
+          src={Brainflix1}
+          alt="upload"
+          className="brainflix__preview--1"
         ></img>
       </div>
 
       <div className="brainflix__preview">
         <img
-          src={Brainflix4}
-          alt="upload"
-          className="brainflix__preview--4"
+          src={Brainflix3}
+          alt="preview"
+          className="brainflix__preview--3"
         ></img>
       </div>
 
