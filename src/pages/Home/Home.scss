@@ -8,22 +8,20 @@
   flex-direction: column;
   margin: auto;
   align-items: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 2rem;
   padding-bottom: 1rem;
 
   @include tablet {
     flex-direction: row;
     gap: 5rem;
     padding: 2rem;
-    padding-bottom: 7rem;
+    padding-bottom: 1rem;
   }
 
   @include desktop {
     gap: 8rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-bottom: 7rem;
+    padding: 4rem;
+    padding-bottom: 1rem;
   }
 
   &__section--container {
@@ -33,7 +31,7 @@
   }
   &__name {
     font-size: 0.6rem;
-    font-family: "DM Sans";
+    font-family: "InterRegular";
     font-style: italic;
     font-weight: 400;
     margin: auto;
@@ -54,6 +52,33 @@
     }
   }
 
+  &__intro {
+    font-family: "InterRegular";
+    font-weight: 400;
+    font-size: 1.5rem;
+
+    @include tablet {
+      font-size: 2rem;
+    }
+    @include desktop {
+      font-size: 3rem;
+    }
+  }
+
+  &__role {
+    font-family: "InterRegular";
+    font-weight: 800;
+    font-size: 2rem;
+
+    @include tablet {
+      font-size: 3rem;
+    }
+
+    @include desktop {
+      font-size: 5rem;
+    }
+  }
+
   &__image {
     width: 150px;
     margin-bottom: 2rem;
@@ -66,11 +91,14 @@
     }
 
     @include desktop {
-      width: 250px;
+      width: 275px;
       margin-bottom: 3rem;
     }
   }
 
+  &__accent {
+    font-size: 1.5rem;
+  }
   &__icon {
     width: 15px;
 
@@ -81,36 +109,46 @@
 
   &__social {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     background-color: #f8f2e6;
     gap: 1rem;
     padding-top: 1rem;
   }
-}
 
-.journey {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #f8f2e6;
-  padding-top: 5rem;
+  &__divider {
+    border: 0.1rem #f8ceb1 solid;
+    margin: 0 rem 2rem;
 
-  &__header {
-    font-family: "DM Sans";
+    @include desktop {
+      margin: 0rem 4rem;
+    }
   }
-  &__image {
-    width: 250px;
-    height: 500px;
-    padding: 1rem;
-    padding-top: 0rem;
+  &__bio {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    gap: 2rem;
 
     @include tablet {
-      width: 600px;
-      height: 1000px;
       padding: 2rem;
-      padding-top: 0rem;
+      padding-bottom: 1rem;
     }
+
+    @include desktop {
+      padding: 4rem;
+      padding-bottom: 1rem;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    align-items: center;
+    margin: 0rem 5rem;
+    font-size: 1rem;
   }
 }
