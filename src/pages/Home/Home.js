@@ -27,7 +27,7 @@ function Home() {
             typewriter
               .start()
               .typeString(
-                "<span class=\"home__intro\">I'm Tara and I'm a </span><br/>"
+                "<span class=\"home__intro\">Hi! I'm Tara and I'm a </span><br/>"
               )
               .stop()
               .start()
@@ -82,7 +82,8 @@ function Home() {
               {" "}
               communication and critical thinking skills
             </span>
-            , with my varied technical and programming skills.
+            , with my varied technical and programming{" "}
+            <a href="/skills">skills</a>.
           </p>
           <img src={card1} className="home__image" alt="shape" />
         </div>
