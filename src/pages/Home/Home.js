@@ -45,7 +45,6 @@ function Home() {
           }}
         />
       </section>
-      {/* <div className="home__divider"></div> */}
       <section className="home__bio">
         <div className="home__card">
           <p>

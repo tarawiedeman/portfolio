@@ -80,12 +80,14 @@
   }
 
   &__image {
+    display: none;
     width: 150px;
     margin-bottom: 2rem;
     border: round;
     border-radius: 0.5rem;
 
     @include tablet {
+      display: block;
       width: 200px;
       margin-bottom: 2rem;
     }
@@ -97,7 +99,12 @@
   }
 
   &__accent {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: #f78352;
+
+    @include tablet {
+      font-size: 1.5rem;
+    }
   }
   &__icon {
     width: 15px;
@@ -149,6 +156,14 @@
     gap: 8rem;
     align-items: center;
     margin: 0rem 5rem;
-    font-size: 1rem;
+    font-size: 0.75rem;
+
+    @include tablet {
+      font-size: 1rem;
+    }
+
+    @include desktop {
+      font-size: 1.25rem;
+    }
   }
 }
