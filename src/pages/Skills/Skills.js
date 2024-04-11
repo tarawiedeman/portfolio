@@ -31,7 +31,6 @@ function Skills() {
       <img className="skills__image" src={html} alt="html"></img>
       <img className="skills__image" src={css} alt="css"></img>
       <img className="skills__image" src={sass} alt="sass"></img>
-      <img className="skills__image" src={git} alt="git"></img>
       <img className="skills__image" src={nextjs} alt="nextjs"></img>
       <img className="skills__image" src={react} alt="react"></img>
       <img className="skills__image" src={javascript} alt="javascript"></img>
