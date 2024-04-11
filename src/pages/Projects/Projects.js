@@ -1,9 +1,4 @@
 import "./Projects.scss";
-import CapstoneSkills from "../../assets/images/CapstoneSkills.jpg";
-import BrainflixSkills from "../../assets/images/BrainflixSkills.jpg";
-import PokedexSkills from "../../assets/images/PokedexSkills.jpg";
-import AmexSkills from "../../assets/images/AMEXskills.jpg";
-import MoodReaderSkills from "../../assets/images/MoodReaderSkills.jpg";
 import Brainflix1 from "../../assets/images/brainflix1.jpg";
 import Brainflix3 from "../../assets/images/brainflix3.jpg";
 import PMRdashboard from "../../assets/images/PMRdashboard.jpg";
@@ -11,14 +6,31 @@ import PMRpayment from "../../assets/images/PMRpayment.jpg";
 import Pokedex1 from "../../assets/images/Pokedex1.jpg";
 import Pokedex2 from "../../assets/images/Pokedex2.jpg";
 import Pokedex3 from "../../assets/images/Pokedex3.jpg";
-import MoodHome from "../../assets/images/moodhome.jpg";
-import MoodChoice from "../../assets/images/moodchoice.jpg";
-import MoodRelax from "../../assets/images/moodrelax.jpg";
-import MoodBalance from "../../assets/images/moodbalancepg.jpg";
 import ForgotPassword from "../../assets/images/forgotpassword.jpg";
 import BudLibrary from "../../assets/images/BUDlibrary.jpg";
 import WhoWeServe from "../../assets/images/WWS.jpg";
 import AllProducts from "../../assets/images/AllProducts.jpg";
+import AllCategories from "../../assets/images/AllCategories.jpg";
+import FormulationSupport from "../../assets/images/FormulationSupport.jpg";
+import PressReleases from "../../assets/images/PressReleases.jpg";
+import api from "../../assets/images/api.png";
+import docker from "../../assets/images/docker.png";
+import git from "../../assets/images/git.png";
+import github from "../../assets/images/github.png";
+import html from "../../assets/images/html.png";
+import javascript from "../../assets/images/javascript.png";
+import json from "../../assets/images/json.png";
+import nextjs from "../../assets/images/nextjs.png";
+import node from "../../assets/images/node.png";
+import npm from "../../assets/images/npm.png";
+import postman from "../../assets/images/postman.png";
+import react from "../../assets/images/react.png";
+import ruby from "../../assets/images/ruby.png";
+import sql from "../../assets/images/sql.png";
+import typescript from "../../assets/images/typescript.png";
+import vsc from "../../assets/images/vsc.png";
+import stripe from "../../assets/images/stripe.jpg";
+import jwt from "../../assets/images/jwt.jpg";
 
 function Projects() {
   return (
@@ -31,21 +43,73 @@ function Projects() {
         </h2>
         <div className="projects__description medisca">
           <p>
-            I was contracted for six months to work on a large, complex
-            ecommerce project for Medisca, a global supplier of pharmaceutical
-            products and services. I collaborated with a small team to rebuild
-            the application from scratch, including an integration with a legacy
-            ERP system.
+            Medisca is a global supplier of pharmaceutical products and services
+            and during my contract I collaborated with a small team to rebuild
+            their entire large and complex global application from scratch,
+            including an integration with a legacy ERP system, all within six
+            months.
           </p>
           <p>
             During this project I was primarily responsible for building
-            features based on design files and client discussions; I leveraged
-            skills in Next.js, React, JavaScript, HTML, CSS, Ruby, and API
-            design. For example, I built the password recovery functionality
-            using the Devise gem and later created an account confirmation
-            feature for additional security.
+            features based on design files and client discussions. I reviewed
+            these client feature requests and used critical thinking skills to
+            ask insightful questions and ensure accurate requirement gathering.
+            As a full-stack developer, I built both front-end features and
+            accompanying back-end API endpoints, SQL data queries, or components
+            in the MVC. I leveraged diverse skills in:{" "}
           </p>
+        </div>
+        <div className="projects__languages">
+          <img className="projects__skill" src={git} alt="git"></img>
+          <img className="projects__skill" src={npm} alt="npm"></img>
+          <img
+            className="projects__skill"
+            src={vsc}
+            alt="visualstudiocode"
+          ></img>
+          <img className="projects__skill" src={docker} alt="docker"></img>
+          <img className="projects__skill" src={html} alt="html"></img>
+          <img className="projects__skill" src={nextjs} alt="nextjs"></img>
+          <img className="projects__skill" src={react} alt="react"></img>
+          <img
+            className="projects__skill"
+            src={javascript}
+            alt="javascript"
+          ></img>
+          <img
+            className="projects__skill"
+            src={typescript}
+            alt="typescript"
+          ></img>
+          <img className="projects__skill" src={ruby} alt="ruby"></img>
+          <img className="projects__skill" src={sql} alt="sql"></img>
+          <img className="projects__skill" src={api} alt="api"></img>
+          <img className="projects__skill" src={json} alt="json"></img>
+          <img className="projects__skill" src={postman} alt="postman"></img>
+        </div>
 
+        <p className="projects__description medisca">
+          The images shown below are features that I built or updated with
+          revised requirements or styling. For example, I built the password
+          recovery functionality and later created an account confirmation
+          feature for additional security.
+        </p>
+        <p className="projects__description medisca">
+          The BUD studies page shown below allowed me the opportunity to add
+          filters for the accompanying data table using ransack, as well as add
+          conditional logic to permit certain user groups to download documents
+          from the table.
+        </p>
+        <p className="projects__description medisca">
+          In addition to learning how to leverage data from an integrated ERP
+          system, I also learned how to bring in data from a headless CMS system
+          and leverage that to create dynamic content on the front-end.
+        </p>
+        <p className="projects__description medisca">
+          Collaborating with a small team to rebuild this application using
+          modern languages was alot of fun!
+        </p>
+        <div className="medisca__images">
           <a href="https://www.medisca.com/login" target="_blank">
             <img
               className="medisca__preview"
@@ -53,10 +117,6 @@ function Projects() {
               src={ForgotPassword}
             ></img>
           </a>
-          <p>
-            I also built many front-end components for marketing materials, and
-            for end-user education. Just a few examples are shown below.
-          </p>
           <a
             href="https://www.medisca.com/formulas/bud-library"
             target="_blank"
@@ -84,25 +144,38 @@ function Projects() {
               src={AllProducts}
             ></img>
           </a>
+          <a
+            href="https://www.medisca.com/products/shop-by-category"
+            target="_blank"
+          >
+            <img
+              className="medisca__preview"
+              alt="allcategories"
+              src={AllCategories}
+            ></img>
+          </a>
+          <a href="https://www.medisca.com/press-releases" target="_blank">
+            <img
+              className="medisca__preview"
+              alt="pressreleases"
+              src={PressReleases}
+            ></img>
+          </a>
+          <a
+            href="https://www.medisca.com/services#formulation-support"
+            target="_blank"
+          >
+            <img
+              className="medisca__preview"
+              alt="formulationsupport"
+              src={FormulationSupport}
+            ></img>
+          </a>
         </div>
       </div>
       <div className="projects__container">
         <h2 className="projects__heading--project">PayMyRent</h2>
         <div className="projects__description">
-          <div>
-            <div className="projects__highlight">
-              **I am currently working on containerizing this application and
-              deploying it on AWS. This project is coming soon, and its
-              evolution can be seen{" "}
-              <a
-                href="https://github.com/tarawiedeman/paymyrentdocker"
-                target="_blank"
-              >
-                here
-              </a>
-              .
-            </div>
-          </div>
           <p>
             PayMyRent is a fully-responsive software application that is helping
             renters pay their individual portion of rent and utilities by credit
@@ -133,6 +206,10 @@ function Projects() {
             account); this will add the user to the users table, and allow for
             successful authentication.
           </p>
+          <div className="projects__highlight">
+            I am currently working on containerizing this application and
+            deploying it on AWS. Stay tuned!
+          </div>
           <p>Creating this project was alot of fun, check it out!</p>
 
           <div className="projects__links">
@@ -149,11 +226,27 @@ function Projects() {
         </div>
 
         <div className="projects__languages">
+          <img className="projects__skill" src={git} alt="git"></img>
+          <img className="projects__skill" src={npm} alt="npm"></img>
           <img
-            className="projects__image"
-            alt="skills"
-            src={CapstoneSkills}
+            className="projects__skill"
+            src={vsc}
+            alt="visualstudiocode"
           ></img>
+          <img className="projects__skill" src={html} alt="html"></img>
+          <img className="projects__skill" src={react} alt="react"></img>
+          <img
+            className="projects__skill"
+            src={javascript}
+            alt="javascript"
+          ></img>
+          <img className="projects__skill" src={node} alt="node"></img>
+          <img className="projects__skill" src={sql} alt="sql"></img>
+          <img className="projects__skill" src={stripe} alt="stripe"></img>
+          <img className="projects__skill" src={jwt} alt="jwt"></img>
+          <img className="projects__skill" src={api} alt="api"></img>
+          <img className="projects__skill" src={json} alt="json"></img>
+          <img className="projects__skill" src={postman} alt="postman"></img>
         </div>
 
         <div className="capstone__preview">
@@ -166,50 +259,6 @@ function Projects() {
             src={PMRpayment}
             alt="paymentscreen"
             className="capstone__preview--payment"
-          ></img>
-        </div>
-      </div>
-
-      <div className="projects_container">
-        <h2 className="projects__heading--project">MoodReader</h2>
-        <div className="projects__description">
-          <div>
-            MoodReader is a TypeScript application that makes helpful
-            recommendations to users based on their mood. I built this
-            application collaboratively with a friend as a way to strengthen my
-            skills and knowledge of TypeScript and how it works with React.
-          </div>
-        </div>
-        <div className="projects__links">
-          <a href="https://github.com/alexzaloga7/moodreader" target="blank">
-            <p>Front-end Code</p>
-          </a>
-        </div>
-
-        <div className="projects__languages">
-          <img
-            className="moodreader__skills"
-            alt="skills"
-            src={MoodReaderSkills}
-          ></img>
-        </div>
-
-        <div className="moodreader__preview">
-          <img
-            src={MoodHome}
-            alt="homescreen"
-            className="moodreader__preview--image"
-          ></img>
-          <img
-            src={MoodChoice}
-            alt="moodselectorscreen"
-            className="moodreader__preview--image"
-          ></img>
-
-          <img
-            src={MoodBalance}
-            alt="balancepage"
-            className="moodreader__preview--image"
           ></img>
         </div>
       </div>
@@ -229,7 +278,26 @@ function Projects() {
         </div>
 
         <div className="projects__languages">
-          <img className="amex__skills" alt="skills" src={AmexSkills}></img>
+          <img className="projects__skill" src={git} alt="git"></img>
+          <img className="projects__skill" src={github} alt="github"></img>
+          <img className="projects__skill" src={npm} alt="npm"></img>
+          <img
+            className="projects__skill"
+            src={vsc}
+            alt="visualstudiocode"
+          ></img>
+          <img className="projects__skill" src={html} alt="html"></img>
+          <img className="projects__skill" src={react} alt="react"></img>
+          <img
+            className="projects__skill"
+            src={javascript}
+            alt="javascript"
+          ></img>
+          <img className="projects__skill" src={api} alt="api"></img>
+          <img className="projects__skill" src={json} alt="json"></img>
+          <img className="projects__skill" src={sql} alt="sql"></img>
+          <img className="projects__skill" src={postman} alt="postman"></img>
+          <img className="projects__skill" src={node} alt="node"></img>
         </div>
       </div>
 
@@ -272,11 +340,23 @@ function Projects() {
           </a>
         </div>
         <div className="projects__languages">
+          <img className="projects__skill" src={git} alt="git"></img>
+          <img className="projects__skill" src={github} alt="github"></img>
+          <img className="projects__skill" src={npm} alt="npm"></img>
           <img
-            className="projects__image"
-            alt="skills"
-            src={BrainflixSkills}
+            className="projects__skill"
+            src={vsc}
+            alt="visualstudiocode"
           ></img>
+          <img className="projects__skill" src={html} alt="html"></img>
+          <img className="projects__skill" src={react} alt="react"></img>
+          <img
+            className="projects__skill"
+            src={javascript}
+            alt="javascript"
+          ></img>
+          <img className="projects__skill" src={api} alt="api"></img>
+          <img className="projects__skill" src={json} alt="json"></img>
         </div>
 
         <div className="brainflix__preview">
@@ -316,11 +396,21 @@ function Projects() {
         </div>
 
         <div className="projects__languages">
+          <img className="projects__skill" src={git} alt="git"></img>
+          <img className="projects__skill" src={github} alt="github"></img>
           <img
-            className="projects__image"
-            alt="skills"
-            src={PokedexSkills}
+            className="projects__skill"
+            src={vsc}
+            alt="visualstudiocode"
           ></img>
+          <img className="projects__skill" src={html} alt="html"></img>
+          <img
+            className="projects__skill"
+            src={javascript}
+            alt="javascript"
+          ></img>
+          <img className="projects__skill" src={api} alt="api"></img>
+          <img className="projects__skill" src={json} alt="json"></img>
         </div>
 
         <div className="pokedex__preview">
